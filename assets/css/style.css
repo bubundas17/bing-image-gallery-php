@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+  font-family: 'Ubuntu', sans-serif;
+  margin-top:75px;
+  background-color: #ffffff;
+}
+
+
+.list-group-item{
+  margin-bottom: 5px;
+  background-color: #f9f9f9f9;
+}
+/*.list-group{
+  background-color: #999999;
+}*/
+ .group{
+   margin-bottom:20px;
+ }
+
+ .box {
+     -o-text-overflow: ellipsis;   /* Opera */
+     text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+     overflow:hidden;              /* don't show excess chars */
+     white-space:nowrap;           /* force single line */
+     width: 95%;                 /* fixed width */
+ }
