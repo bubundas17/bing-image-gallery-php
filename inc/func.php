@@ -113,7 +113,7 @@
         foreach ($bingImageList as $image) {
         $error  = false;
         $data = file_get_contents($image['url']);
-        $name = $image;
+        $name = $image['name'];
         $name = basename($name.'.jpg');
           if (!file_put_contents($dir.$name, $data)) {
             $error = true;
